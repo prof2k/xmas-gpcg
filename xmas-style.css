@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'intro';
+  src:  url('Intro.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'chiller';
+  src:  url('chiller.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'Curlz MT';
+  src:  url('curlz mt.ttf') format('truetype'), 
+}
+
+
+
+
+
+
 body {
     padding: 0;
     margin: 0;
