@@ -1,23 +1,3 @@
-@font-face {
-  font-family: 'intro';
-  src:  url('Intro.ttf') format('truetype'), 
-}
-
-@font-face {
-  font-family: 'chiller';
-  src:  url('chiller.ttf') format('truetype'), 
-}
-
-@font-face {
-  font-family: 'Curlz MT';
-  src:  url('curlz mt.ttf') format('truetype'), 
-}
-
-
-
-
-
-
 body {
     padding: 0;
     margin: 0;
@@ -163,7 +143,7 @@ body {
 }
 
 .chiller {
-    font-family: chiller;
+    font-family: 'Unkempt', cursive;
 }
 
 .b {
@@ -179,7 +159,7 @@ body {
     margin-bottom: 0;
     padding-left: .6em;
     letter-spacing:  .5em;
-    font-family: intro;
+    font-family: 'Rammetto One', cursive;
     background: linear-gradient(to right, #e01c34 0px, #e01c34 25%,
                                             #ffd700 25%, #ffd700 50%,
                                             #45ff34 50%, #45ff34 75%,
@@ -223,7 +203,7 @@ body {
 
 #wish span.merry-xmas {
     font-size: 3em;
-    font-family: Curlz MT;
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 #gpcg-credit {
@@ -253,7 +233,7 @@ body {
   width: 400px;
   margin: auto;
   /* margin: 50px auto 0; */
-  font: 35px/50px chiller, Courier, monospaced;
+  font: 35px/50px 'Mountains of Christmas', cursive;
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -351,7 +331,7 @@ body {
     margin-top: 4em;
     /* margin-bottom: 2em; */
     font-size: 1.9em;
-    font-family: chiller;
+    font-family: 'Unkempt', cursive;
     line-height: 1.5em;
     letter-spacing: 1px;
     font-weight: light;
