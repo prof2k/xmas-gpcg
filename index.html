@@ -163,18 +163,17 @@
 }
 
 #ivcu {
-    font-size: 8em;
+    font-size: 4em;
     margin-bottom: 0;
+    margin-top: 2em;
     padding-left: .6em;
     letter-spacing:  .5em;
     font-family: 'Rammetto One', cursive;
-    background: linear-gradient(to right, #e01c34 0px, #e01c34 25%,
-                                            #ffd700 25%, #ffd700 50%,
-                                            #45ff34 50%, #45ff34 75%,
-                                            blue 75%, blue 100%);
-    /* text-align: center; */
+    background: repeating-linear-gradient(-30deg,#e2cacd, #e2cacd 5px, #a047c6 0, #a047c6 10px);
+    background-clip: text;
     -webkit-background-clip: text;
-    /* color: #a047c6; */
+    color: transparent;
+    /* background: repeating-linear-gradient(-30deg,#e2cacd, #e2cacd 20px, crimson 0, crimson 40px); */
 }
 
 #ivcu b {
@@ -355,10 +354,10 @@
     }
 }
     </style>
-    <title>Wishing IVCU a merry christmas from all of us at GPCG</title>
+    <title>Wishing you a merry christmas from all of us at IVCU</title>
 </head>
 <body class="flx-box-cntr">
-    <canvas id="canvas">zx  </canvas>
+    <canvas id="canvas"></canvas>
 
     <section id="xmas-lights">
         <div class="container">
@@ -410,20 +409,18 @@
     </section>
 
     <section id="message">
-        <p id="ivcu"><b>I</b><b>V</b><b>C</b><b>U</b></p>
-        <p id="wish" class="chiller b">Wishing you all a <br /><span class="merry-xmas"><b>M</b><b>e</b><b>r</b><b>r</b><b>y</b> <b>C</b><b>h</b><b>r</b><b>i</b><b>s</b><b>t</b><b>m</b><b>a</b><b>s</b></span></p>
+        <p id="ivcu">Season Greetings!</p>
+        <p id="wish" class="chiller b">Wishing you a <br /><span class="merry-xmas"><b>M</b><b>e</b><b>r</b><b>r</b><b>y</b> <b>C</b><b>h</b><b>r</b><b>i</b><b>s</b><b>t</b><b>m</b><b>a</b><b>s</b></span></p>
         <!-- <p id="gpcg-credit" class="chiller b">From all of us at GPCG</p> -->
         <p id="gpcg-credit" class="bar chiller b">
-            From all of us at GPCG
+            From all of us at IVCU
             <span></span>
             <span></span>
             <span></span>
             <span></span>
           </p>
 
-        <p id="xmas-message">May the love of our Savior, Jesus Christ,
-            surround you all the days of your life.
-            Merry Christmas to you and your family!</p>
+        <p id="xmas-message">May the love of our Saviour, Jesus Christ, surround you all the days of your life. Merry Christmas to you and your family!</p>
     </section>
 
     <script>
