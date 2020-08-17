@@ -1,2 +1,2 @@
-# XMAS - IVCU
-Web pages for school fellowship chritmas and new year greetings featuring custom interactive elements
+# XMAS - GPCG
+Web pages for school fellowship (ivcu.ort) christmas and new year greetings featuring custom interactive elements
